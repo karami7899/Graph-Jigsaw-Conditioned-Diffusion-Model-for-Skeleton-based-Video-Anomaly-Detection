@@ -5,6 +5,8 @@ _Ali Karami, Thi Kieu Khanh Ho, Narges Armanfard_
 ### Description
 This repository contains code and configurations for training and evaluating models on the HR-Avenue, HR-ShanghaiTech, and HR-UBnormal datasets. The code includes scripts for setting up the environment, training models, and evaluating their performance.
 
+![teaser](model.png) 
+
 ### Datasets
 You can download the extracted poses for the datasets HR-Avenue, HR-ShanghaiTech, and HR-UBnormal from the following Google Drive link: [Dataset Link](https://drive.google.com/drive/folders/1JMQ4-KzFeWLdwbu7Gvo2_RtPOgYD1zKw?usp=sharing)
 
