@@ -1,8 +1,13 @@
 
 # Graph-Jigsaw Conditioned Diffusion Model for Skeleton-based Video Anomaly Detection
-_Ali Karami, Thi Kieu Khanh Ho, Narges Armanfard_
+_Ali Karami <sup>1, 2</sup>, Thi Kieu Khanh Ho <sup>1, 2</sup>, Narges Armanfard <sup>1, 2</sup>_
 
+<sup>1</sup>Department of Electrical and Computer Engineering, McGill University
+
+<sup>2</sup>Mila - Quebec AI Institute, Montreal, QC, Canada
 ### Description
+The official PyTorch implementation of the Winter Conference on Applications of Computer Vision ("WACV") '25 paper. [Arxiv](https://arxiv.org/abs/2403.12172)
+
 This repository contains code and configurations for training and evaluating models on the HR-Avenue, HR-ShanghaiTech, and HR-UBnormal datasets. The code includes scripts for setting up the environment, training models, and evaluating their performance.
 
 ![teaser](model.png) 
@@ -18,9 +23,9 @@ To train the model with all necessary dependencies, run the following script:
 ./GiCiSAD.sh
 ```
 You may adjust the GPU configuration within the script to request additional GPUs as needed. The script includes the command:
-
+```sh
 srun python train.py --config config/STC/GiCiSAD_train.yaml
-
+```
 If you want to run the training on a single GPU, simply remove "srun" from the command.
 
 ### Training with Different Datasets
