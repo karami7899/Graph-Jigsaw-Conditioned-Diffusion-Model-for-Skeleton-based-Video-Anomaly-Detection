@@ -6,7 +6,7 @@ _Ali Karami <sup>1, 2</sup>, Thi Kieu Khanh Ho <sup>1, 2</sup>, Narges Armanfard
 
 <sup>2</sup>Mila - Quebec AI Institute, Montreal, QC, Canada
 ### Description
-The official PyTorch implementation of the Winter Conference on Applications of Computer Vision ("WACV") '25 paper. [Arxiv](https://arxiv.org/abs/2403.12172)
+The official PyTorch implementation of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2025 – top ~10 %). [Arxiv](https://arxiv.org/abs/2403.12172)
 
 This repository contains code and configurations for training and evaluating models on the HR-Avenue, HR-ShanghaiTech, and HR-UBnormal datasets. The code includes scripts for setting up the environment, training models, and evaluating their performance.
 
